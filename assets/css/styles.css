@@ -141,18 +141,18 @@ img {
   padding: 4.5rem 0 1rem;
 }
 
-.section__title, 
-.section__subtitle {
+.section_title, 
+.section_subtitle {
   text-align: center;
 }
 
-.section__title {
+.section_title {
   font-size: var(--h2-font-size);
   color: var(--first-color);
   margin-bottom: 2rem;
 }
 
-.section__subtitle {
+.section_subtitle {
   display: block;
   font-size: var(--smaller-font-size);
   color: var(--text-color-light);
