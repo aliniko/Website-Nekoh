@@ -254,22 +254,80 @@ img {
 }
 
 .home_img{
-  width: 160px;
+  /* width: 260px; */
 }
 
 .home_handle{
   justify-content: center;
-  width: 190px;
-  height: 293px;
+  align-items: center;
+  width: 150px;
+  height: 150px;
   background: linear-gradient(180deg,
               hsla(var(--first-hue), var(--sat), var(--lig), 1),
               hsla(var(--first-hue), var(--sat), var(--lig), .2)
   );
   border-radius: 2rem 2rem 1rem 1rem;
   display: flex;
-  align-tracks: flex-end;
+  /* align-tracks: flex-end; */
   justify-content: center;
+  align-items: center;
   overflow: hidden;
+}
+
+.home_buttons{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.home_social,
+.home_scroll{
+  position: absolute;
+}
+
+.home_social{
+  bottom: 5rem;
+  left: 0;
+  display: grid;
+  row-gap: .5rem;
+}
+
+.home_social-link{
+  width: max-content;
+  background-color: var(--container-color);
+  color: var(--first-color);
+  padding: .25rem;
+  border-radius: .25rem;
+  display: flex;
+  font-size: 1rem;
+  transition: .4s;
+}
+
+.home_social::after{
+  content: '';
+  width: 32px;
+  height: 2px;
+  background-color: var(--first-color);
+  transform: rotate(90deg) translate(16px, 3px);
+}
+
+.home_scroll{
+  color: var(--first-color);
+  right: -1.5rem;
+  bottom: 4rem;
+  display: grid;
+  row-gap: 2.25rem;
+  justify-items: center;
+}
+
+.home_scroll-icon{
+  font-size: 1.25rem;
+}
+
+.home_scroll-name{
+  font-size: var(--smaller-font-size);
+  transform: rotate(-90deg);
 }
 
 /*=============== BUTTONS ===============*/
