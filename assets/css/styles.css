@@ -488,7 +488,70 @@ img {
 }
 
 /* Services modal */
+.services_modal{
+  position: fixed;
+  inset: 0;
+  background-color: hsla(var(--second-heu), 28%, 16%, .7);
+  padding: 2rem 1rem;
+  display: grid;
+  place-items: center;
+  /* visibility: hidden; */
+  /* opacity: 0; */
+  transition: .4s;
+  z-index: var(--z-modal);
+}
 
+.services_modal-content{
+  position: relative;
+  background-color: var(--body-color);
+  padding: 4.5rem 1.5rem 2.5rem;
+  border-radius: 1.5rem;
+}
+
+.services_modal-title, 
+.services_modal-description{
+  text-align: center;
+}
+
+.services_modal-title{
+  font-size: var(--h3-font-size);
+  color: var(--first-color);
+  margin-bottom: 1rem;
+}
+
+.services_modal-description{
+  font-size: var(--small-font-size);
+  margin-bottom: 2rem;
+}
+
+.services_modal-list{
+  display: grid;
+  row-gap: .75rem;
+}
+
+.services_modal-item{
+  display: flex;
+  align-items: flex-start;
+  column-gap: .5rem;
+}
+
+.services_modal-icon{
+  font-size: 1.5rem;
+  color: var(--first-color);
+}
+
+.services_modal-info{
+  font-size: var(--small-font-size);
+}
+
+.services_modal-close{
+  position: absolute;
+  top: 1.5rem;
+  right: 1.5rem;
+  font-size: 1.5rem;
+  color: var(--first-color);
+  cursor: pointer;
+}
 
 /*Active modal*/
 
