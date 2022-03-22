@@ -33,6 +33,16 @@ modalClose.forEach((mc) => {
     })
 })
 
+/*==================== Mixitup Filter Portfolio ====================*/
+let mixerPortfolio = mixitup('.work_container', {
+    selectors: {
+        target: '.work_card'
+    },
+    animation: {
+        duration: 300
+    }
+});
+
 /*===== MENU SHOW =====*/
 /* Validate if constant exists */
 
