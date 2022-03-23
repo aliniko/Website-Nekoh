@@ -43,7 +43,7 @@ let mixerPortfolio = mixitup('.work_container', {
     }
 });
 
-/* Linkk active work */
+/* Links active work */
 const linkWork = document.querySelectorAll('.work_item')
 
 function activeWork(){
