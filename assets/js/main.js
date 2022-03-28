@@ -53,6 +53,16 @@ function activeWork(){
 
 linkWork.forEach(L => l.addEventListener('click', activeWork))
 
+/*===== Swiper Testimonial  =====*/
+let  swiperTestimonial = new Swiper(".testimonial_container", {
+    spaceBetween: 24,
+    loop: true,
+    grabCursor: true, 
+    pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+    },
+})
 
 /*===== MENU SHOW =====*/
 /* Validate if constant exists */
