@@ -62,6 +62,15 @@ let  swiperTestimonial = new Swiper(".testimonial_container", {
         el: ".swiper-pagination",
         clickable: true,
     },
+    breakpoints: {
+        576: {
+            slidesPerView: 2,
+        },
+        768: {
+            slidesPerView: 2,
+            spaceBetween: 48,
+        },
+    }
 })
 
 /*===== MENU SHOW =====*/
