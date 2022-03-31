@@ -659,7 +659,66 @@ pop up
 }
 
 /*=============== CONTACT ===============*/
+.contact_container{
+  row-gap: 3rem;
+  padding-bottom: 3rem;
+}
 
+.contact_title{
+  text-align: center;
+  font-size: var(--h3-font-size);
+  margin-bottom: 1.5rem;
+}
+
+.contact_info{
+  display: grid;
+  gap: 1rem;
+}
+
+.contact_card{
+  background-color: var(--container-color);
+  padding: 1rem;
+  border-radius: .75rem;
+  text-align: center;
+}
+
+.contact_card-icon{
+  font-size: 2rem;
+  color: var(--title-color);
+  margin-bottom: .25rem;
+}
+
+.contact_card-title,
+.contact_card-data{
+  font-size: var(--small-font-size);
+}
+
+.contact_card-title{
+  font-weight: var(--font-medium);
+}
+
+.contact_card-data{
+  display: block;
+  margin-bottom: .75rem;
+}
+
+.contact_button{
+  color: var(--first-color);
+  font-size: var(--small-font-size);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: .25rem;
+}
+
+.contact_button:hover .contact_button-icon{
+  transform: translateX(.25rem);
+}
+
+.contact_button-icon{
+  font-size: 1rem;
+  transition: .4s;
+}
 
 /*=============== FOOTER ===============*/
 
