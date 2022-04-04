@@ -793,7 +793,20 @@ pop up
 }
 
 .footer_social-link{
-  
+  background-color: var(--body-color);
+  color: var(--first-color);
+  padding: .25rem;
+  border-radius: .25rem;
+  font-size: 1rem;
+  display: inline-flex;
+}
+
+.footer_copy{
+  display: block;
+  margin-top: 4.5rem;
+  color: var(--container-color);
+  text-align: center;
+  font-size: var(--small-font-size);
 }
 
 /*=============== SCROLL BAR ===============*/
